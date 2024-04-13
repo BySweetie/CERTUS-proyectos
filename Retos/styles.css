@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(200, 235, 255) ;
+}
+
+
+.imagen{
+    width: 200px; /* Modifica el ancho  */
+    height: 600px; /* Modifica la altura  */
+    border: 250px solid white; 
+    border-radius: 65px;
+    display: flex;
+    justify-content: center;
+
+}
