@@ -1,22 +1,46 @@
 *{
-    background-color: rgb(200, 235, 255) ;
+    margin: 0%;
+    padding: 0%;
+
 }
 
+section{
+    
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
 
 .imagen{
-    width: 200px; /* Modifica el ancho  */
-    height: 600px; /* Modifica la altura  */
-    border: 250px solid white; 
-    border-radius: 65px;
-    display: flex;
-    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
 
 }
 
-.contenedor {
-    width: 200px; /* ajusta el ancho según sea necesario */
-    height: 200px; /* ajusta la altura según sea necesario */
-    background-image: url('./Reto-1/images/image-qr-code.png'); /* cambia 'tu-imagen.jpg' por la ruta de tu imagen */
-    background-size: cover; /* ajusta el tamaño de la imagen para cubrir todo el contenedor */
-    background-position: top right; /* posiciona la imagen en la esquina superior derecha */
+.imagen img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.texto{
+    padding: 22px 10px;
+}
+
+.texto h1{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.texto p{
+    color: hsl(220, 15%, 55%);
+
 }
