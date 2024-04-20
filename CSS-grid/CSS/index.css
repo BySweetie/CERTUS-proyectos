@@ -85,3 +85,26 @@ body{
     grid-row-start: 4;
     grid-row-end: 4; */
 }
+
+@media(max-width:768px){
+    .main-container{
+        background-color: blue;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,200px);
+        grid-template-areas: initial;
+    }
+    .main-container div{
+        grid-area: initial !important;
+    }
+}
+@media(max-width:400px){
+    .main-container{
+background-color: cyan;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8,200px);
+        grid-template-areas: initial;
+    }
+    .main-container div{
+        grid-area: initial !important;
+    }
+}
