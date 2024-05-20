@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <meta property="og:title" content="Alina Cruz Elera-Portafolio"/>
     <meta property="og:description" content="Bienvenidos a mi pagina web"/>
     <meta property="og:image" content="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/01/Shenhe-and-Chongyun-from-Genshin-Impact.jpg"
@@ -21,36 +22,48 @@
       }
 
 </style>
-<body>
+<body style="background-color: #111827" class= "border-green-300 border p-4">
     <!--Section - Navegacion-->
-    <nav>
-        <ul>
-            <li>  <a href="" > Inicio </a> </li>
-            <li>  <a href=""> Proyectos </a> </li>
-            <li>  <a href=""> Habilidades </a> </li>
-            <li>  <a href=""> Contacto </a> </li>
+    <nav class=" flex justify-end pr-80">
+        <ul class="flex m-3 p-3">
+            <li class="m-3  p-2   border-white border">  <a href="" > Inicio </a> </li>
+            <li class="m-3  p-2   border-white border">  <a href=""> Proyectos </a> </li>
+            <li class="m-3  p-2   border-white border">  <a href=""> Habilidades </a> </li>
+            <li class="m-3  p-2   border-white border">  <a href=""> Contacto </a> </li>
         </ul>
     </nav>
     <!--Section - Presentacion-->
-    <section>
-        <div>
-            <p>👋 Hola soy </p>
-            <h1>Alina Elera</h1>
-            <p>Desarrollador Web</p>
-        </div>
-        <div>
-            <img src="./Clase-Lunes 01//landing/coding.svg" alt="">
-        </div>
-    </section>
+    <section class="">
+        <section class="flex justify-center">
+
+
+            <div class=" flex justify-center">
+                <div>
+                    <p class="">👋 hola,soy</p>
+                    <h1 class="text-5xl m-2">Alina Cruz Elera </h1>
+                    <P class="text-yellow-400">DESARROLADOR WEB </P>
+                </div>
+            </div>
+            <div class="justify-center">
+                <img src="./Clase-Lunes 01/landing/coding.svg" alt="computer">
+            </div>
+
+
+
+
+        </section>
 
     <!--Section - Proyectos-->
     <section>
-        <h2>Proyectos</h2>
-        <div>
+        <h2 class="flex justify-center letra">Proyectos</h2>
+        <div class=" flex justify-center P-2 m-2">
+            <hr class="linea">
+        </div>
+        <div class=" flex justify-center">
             <img src="./Clase-Lunes 01/projects/mail-box.png" alt="mail-box">
             <img src="./Clase-Lunes 01/projects/viajes.png" alt="viajes">
         </div>
-        <div>
+        <div class="flex justify-center">
             <img src="./Clase-Lunes 01//projects/to-do-list.png" alt="to-do-list">
             <img src="./Clase-Lunes 01/projects/datos.png" alt="datos">
         </div>
@@ -58,40 +71,52 @@
 
     <!--Habilidades-->
     <section>
-        <h2></h2>
-        <div>
-           <span> <img src="./Clase-Lunes 01//techs/docker.png" alt=""> docker </span>
-           <span> <img src="./Clase-Lunes 01//techs/html.png" alt=""> HTML </span>
-           <span> <img src="./Clase-Lunes 01//techs/typescript.svg" alt=""> TypeScript</span>
-           <span> <img src="./Clase-Lunes 01//techs/mongodb.svg" alt=""> MongoDB </span>
+        <div class="">
+            <h2 class="flex justify-center letra ">Habilidades</h2>
+            <div class=" flex justify-center P-2 m-2">
+                <hr class="linea">
+            </div>
         </div>
-        <div>
-            <span> <img src="./Clase-Lunes 01//techs/git.png" alt=""> Git </span> 
-           <span> <img src="./Clase-Lunes 01//techs/css.png" alt=""> CSS 3 </span>
-           <span> <img src="./Clase-Lunes 01//techs/reactjs.svg" alt=""> React </span>
-           <span> <img src="./Clase-Lunes 01//techs/mssql.svg" alt=""> MSSQL </span>
+        <div class="flex justify-center">
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/docker.png" alt=""> docker </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/html.png" alt=""> HTML </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/typescript.svg" alt=""> TypeScript</span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/mongodb.svg" alt=""> MongoDB </span>
         </div>
-        <div>
-           <span> <img src="./Clase-Lunes 01//techs/figma.svg" alt=""> Figma </span>
-           <span> <img src="./Clase-Lunes 01//techs/tailwind.svg" alt=""> TailwindCSS </span>
-           <span> <img src="./Clase-Lunes 01//techs/vue.svg" alt=""> Vue </span>
-           <span> <img src="./Clase-Lunes 01//techs/pgsql.svg" alt=""> PostgreSQL </span>
+        <div class="flex justify-center">
+            <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/git.png" alt=""> Git </span> 
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/css.png" alt=""> CSS 3 </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/reactjs.svg" alt=""> React </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/mssql.svg" alt=""> MSSQL </span>
         </div>
-        <div>
-           <span> <img src="./Clase-Lunes 01//techs/node-js.svg" alt=""> Node.js </span>
-           <span> <img src="./Clase-Lunes 01//techs/javascript.svg" alt=""> JavaScript </span>
-           <span> <img src="./Clase-Lunes 01//techs/nestjs.svg" alt=""> Nost.js </span>
+        <div class="flex justify-center">
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/figma.svg" alt=""> Figma </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/tailwind.svg" alt=""> TailwindCSS </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/vue.svg" alt=""> Vue </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/pgsql.svg" alt=""> PostgreSQL </span>
+        </div>
+        <div class="flex justify-center">
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/node-js.svg" alt=""> Node.js </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/javascript.svg" alt=""> JavaScript </span>
+           <span class="titulo pl-4  flex  border-green-300 border text-2x1  "> <img src="./Clase-Lunes 01//techs/nestjs.svg" alt=""> Nost.js </span>
         
         </div>
     </section>
     <section>
         <!--Section - Contacto-->
     </section>
-    <h2>Contacto</h2>
-    <div>
-        <img src="./Clase-Lunes 01//social-media/Linkedin.svg" alt="">
-        <img src="./Clase-Lunes 01//social-media/GitHub.png" alt="">
-        <img src="./Clase-Lunes 01//social-media/outlook.svg" alt="">
+    <h2 class="flex justify-center  letra">Contacto</h2>
+    <div class=" flex justify-center P-2 m-2">
+        <hr class="linea">
     </div>
+    <div class="flex flex justify-center mb-10">
+        <img class="p-2 m-3" src="./Clase-Lunes 01//social-media/Linkedin.svg" alt="">
+        <img class="p-2 m-3" src="./Clase-Lunes 01//social-media/GitHub.png" alt="">
+        <img class="p-2 m-3" src="./Clase-Lunes 01//social-media/outlook.svg" alt="">
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </body>
+
 </html>
